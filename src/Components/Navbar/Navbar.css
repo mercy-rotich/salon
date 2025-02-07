@@ -1,0 +1,8 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    height: 2rem;
+}

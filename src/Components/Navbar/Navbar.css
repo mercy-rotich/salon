@@ -1,20 +1,52 @@
 .navbar{
-    padding: 1.6rem 0;
-    border-bottom: 1px solid black;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #c2c0c0;
+    display: flex;
+    justify-content: space-around;
 }
 .navbar ul{
     display: flex;
-    flex-direction: row;
-    gap: 1.9rem;
     align-items: center;
-    justify-content: center;
-}
-.navbar li{
     list-style: none;
-    font-size: 24px;
-    color: #333;
+    gap: 2rem;
+    color: black;
     font-family: "Atkinson Hyperlegible Next", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 300;
   font-style: normal;
+}
+.navbar li{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    margin-left: -18rem;
+}
+.logo{
+    margin-top: 7px;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+.logo span{
+    color: #f87205;
+    font-weight: lighter;
+}
+.logo img{
+    width: 40px;
+    height: 20px;
 }

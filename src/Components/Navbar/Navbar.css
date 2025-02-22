@@ -3,6 +3,10 @@
     border-bottom: 1px solid #c2c0c0;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .navbar ul{
     display: flex;
@@ -25,11 +29,14 @@
     cursor: pointer;
     
 }
+.navbar li:hover{
+    color: #f87205;
+}
 .search-icon{
     width: 30px;
     height: 30px;
 }
-button{
+.navbar button{
     width: 120px;
     height: 40px;
     background: black;

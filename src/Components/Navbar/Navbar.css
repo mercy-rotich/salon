@@ -1,3 +1,7 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
 .navbar{
     padding: 1.2rem 0;
     border-bottom: 1px solid #c2c0c0;
@@ -7,6 +11,7 @@
     top: 0;
     left: 0;
     right: 0;
+    
 }
 .navbar ul{
     display: flex;

@@ -7,3 +7,7 @@
 body{
   background: #FFFBF2;
 }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
